@@ -6,12 +6,6 @@ import (
 	// "math"
 )
 
-func add(x, y string) (string, string) {
-	return x, y
-}
-
-var c, python, java bool
-
 func main() {
 
 	fmt.Printf("Counting")
