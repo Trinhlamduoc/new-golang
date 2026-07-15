@@ -8,12 +8,11 @@ import (
 
 func main() {
 
-	fmt.Printf("Counting")
+		number := 10
+		pointer := &number
 
-	for i := 0; i < 10; i++ {
-		defer fmt.Println(i)
-	}
-
-	fmt.Println("Done")
+		fmt.Println(number)
+		fmt.Println(pointer)
+		fmt.Println(*pointer)
 
 }
