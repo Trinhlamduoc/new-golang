@@ -13,6 +13,7 @@ type Counter int
 // lưu ý:
 // Nếu muốn dùng tên của func giống nhau thì phải có recever khác nhau
 // Các method có thể trùng tên nếu xác định trên các dữ liệu khác nhau trong khi các hàm thì không được phép trùng tên
+// method rõ ràng hơn vì có truyền recever
 func (c Counter) String2() string {
 	return fmt.Sprintf("Counter(%d) 111", c)
 }
