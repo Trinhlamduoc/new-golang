@@ -6,6 +6,7 @@ import "fmt"
 
 type Counter int 
 
+// recever làm nhận vào
 // Counter là recever phần nhận vào
 // String() là tên hàm, chỉ dùn 1 recever cụ thể
 // method là function nhưng dữ liệu nhận vào của method là kiểu struct hoặc non-struct
