@@ -27,6 +27,8 @@ func do(i interface{}) {
 	}
 }
 
+// method stringer chuyển {I am Đăng Trình} -> I am Đăng Trình
+
 type Foo struct{}
 
 func (Foo) Speak() string {
